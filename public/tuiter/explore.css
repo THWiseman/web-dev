@@ -1,0 +1,113 @@
+body{
+    background-color: black;
+}
+
+.container{
+    position:relative;
+    padding-left:12px;
+    display:block;
+}
+
+.left-element{
+    position:relative;
+    float: left;
+    padding-right:12px;
+}
+.right-element{
+    position: relative;
+    float:left;
+}
+
+.class-search{
+    background-color: darkgray;
+    color: white;
+    border-radius: 12px;
+    width:300px;
+    height:25px;
+}
+
+.class-gear{
+    color: #61dafb;
+}
+
+.class-gear a{
+    text-decoration: none;
+    font-size:20px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float:left;
+    padding:16px;
+    font-size:15px;
+}
+
+li a:hover {
+    background-color: rgb(29,161,142);
+}
+
+li a{
+    text-decoration-color:rgb(110, 118, 125);
+    color: rgb(110, 118, 125);
+}
+
+li a#forYou {
+    text-decoration-color:rgb(29,161,142);
+    color: rgb(29,161,242);
+}
+
+.topic{
+    padding-top: 25px;
+    color:rgb(110, 118, 125);
+    font-size:13px;
+}
+
+.section{
+    padding-top: 25px;
+    color:rgb(110, 118, 125);
+    font-size:13px;
+}
+.title{
+    color:rgb(255,255,255);
+    font-size:18px;
+}
+
+.numberoftweets{
+    color:rgb(110,118,125);
+    font-size:11px;
+}
+
+hr{
+    border-color:gray;
+    border-bottom-width: 1px;
+}
+
+.author{
+    padding-top: 25px;
+    color:white;
+    font-size:12px;
+}
+
+img{
+    float:right;
+    margin-right:16px;
+    border-radius:12px;
+}
+
+.tweet{
+    height: 100px;
+}
+
+.tweetimg{
+    display: flex;
+    position:relative;
+    justify-content: right;
+    top: -75%
+
+}
