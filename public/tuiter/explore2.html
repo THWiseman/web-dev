@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tuiter Explore</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/ca78558cbb.js" crossorigin="anonymous"></script>
+    <link href="explore2.css" rel="stylesheet"/>
+</head>
+<body>
+
+
+<div class ="container">
+    <div class ="row">
+        <div class="col-1 col-xl-2 pt-4">
+            <div class="list-group">
+                <a href="home.html" class="list-group-item list-group-item-action" aria-current="true">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="home.html" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-house-chimney"></i><span class="d-none d-xl-inline-block"> Home</span> </a>
+                <a href="explore.html" class="list-group-item list-group-item-action active">
+                    <i class="fa-solid fa-hashtag"></i>   <span class="d-none d-xl-inline-block"> Explore</span></a>
+                <a href="notifications.html" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-bell"></i>   <span class="d-none d-xl-inline-block"> Notifications</span></a>
+                <a href="messages.html" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">
+                    <i class="fa-solid fa-envelope"></i>    <span class="d-none d-xl-inline-block"> Messages</span></a>
+                <a href="bookmarks.html" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">
+                    <i class="fa-solid fa-bookmark"></i>    <span class="d-none d-xl-inline-block"> Bookmarks</span></a>
+                <a href="lists.html" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">
+                    <i class="fa-solid fa-list"></i>   <span class="d-none d-xl-inline-block"> Lists</span></a>
+                <a href="profile.html" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">
+                    <i class="fa-solid fa-user"></i>    <span class="d-none d-xl-inline-block"> Profile</span></a>
+                <a href="navigation.html" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <span class="d-none d-xl-inline-block"> More</span></a>
+            </div>
+            <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="button" id="tweetButton">Tweet</button>
+            </div>
+        </div>
+
+        <div class="col-11 col-lg-7 col-xl-6 pt-4">
+
+            <div class="container-fluid">
+                <div class="row">
+            <div class="input-group mb-3" id="test">
+
+                <input type="text" class="form-control" id="searchbar" aria-describedby="basic-addon3" placeholder="&#x1F50D;   Search Tuiter">
+                <div class="input-group-append" id="gearappend">
+                    <span class="input-group-text" id="gearbackground"> <a id="gear" href="#">
+                    <i class="fa-solid fa-gear id=gearGlyph"></i>
+                </a></span>
+                </div>
+            </div>
+                </div>
+                <div class="row">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">For You</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Entertainment</a>
+                </li>
+            </ul>
+                </div>
+                <div class="row">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="../cat.jpeg" alt="First slide">
+                                <p class="carousel-caption text-start"><span id="carouselheadline"> Black cats are spooky.</span><br><span id="carouseltext">Very spooky.</span></p>
+                                <p class="carousel-caption text-start"> </p>
+                            </div>
+                        </div>
+            <!img src="" class="img-fluid" alt="Responsive image" id="catPic">
+                </div>
+                </div>
+                <span id ="feed">
+                <div class="row">
+                <div class="col-8 themed-grid-col" >
+                    <div class="topic"> Web Development</div>
+                    <div class="author">ReactJS <i class="fa-solid fa-circle-check"></i><span class="time"> - 2h</span></div>
+                    <div class="tweetbody"> React.js is a great way to do things like stuff and other stuff.</div>
+                    <div class="time">123k tweets</div>
+                </div>
+                <div class="col-4">
+                    <img class="img-responsive" src="../logo192.png" alt="Responsive image" height="100px">
+                </div>
+                </div>
+                    <div class="row">
+                <div class="col-8 themed-grid-col" >
+                    <div class="topic">React JS Mind Control</div>
+                    <div class="author">ReactJS <i class="fa-solid fa-circle-check"></i><span class="time"> - 2h</span></div>
+                    <div class="tweetbody"> React.js is getting a lot of free marketing in by including these logos in their source code.</div>
+                    <div class="time">13k tweets</div>
+                </div>
+                <div class="col-4">
+                    <img class="img-responsive" src="../logo512.png" alt="Responsive image" height="100px">
+                </div>
+                </div>
+                    <div class="row">
+                <div class="col-8 themed-grid-col" >
+                    <div class="topic"> Java Development</div>
+                    <div class="author">Java is the best <i class="fa-solid fa-circle-check"></i><span class="time"> - 41h</span></div>
+                    <div class="tweetbody">Java indoctrinates the youth into believing that object oriented programming is the only way to write maintainable code.</div>
+                    <div class="time">123k tweets</div>
+                </div>
+                <div class="col-4">
+                    <img class="img-responsive" src="../IMG_5489.jpeg" alt="Responsive image" height="100px">
+                </div>
+                </div>
+                     </span>
+            </div>
+
+        </div>
+
+        <div class="col-lg-4">
+            <div class="container-fluid pt-4" id="follow">
+                <div class ="row">
+                    <div class="col-sm-12" id="whoToFollow">
+                        Who to follow
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class="col-sm-2">
+                        <i class="fa-brands fa-js-square fa-4x"></i>
+                    </div>
+                    <div class="col-sm-6 pt-2">
+                        <div class="author">Javascript <i class="fa-solid fa-circle-check"></i></div>
+                        <div>@javascript</div>
+                    </div>
+                    <div class="col-4 pt-2">
+                        <button type="button" class="btn btn-primary">Follow</button>
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class="col-sm-2">
+                        <i class="fa-brands fa-java fa-4x" id="java"></i>
+                    </div>
+                    <div class="col-sm-6 pt-2">
+                        <div class="author">Java <i class="fa-solid fa-circle-check"></i></div>
+                        <div>@Java</div>
+                    </div>
+                    <div class="col-4 pt-2">
+                        <button type="button" class="btn btn-primary">Follow</button>
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class="col-sm-2" id="followLogo">
+                        <i class="fa-brands fa-facebook-messenger fa-3x" id="facebook"></i>
+                    </div>
+                    <div class="col-sm-6 pt-2" id="followBody">
+                        <div class="author">Messenger <i class="fa-solid fa-circle-check"></i></div>
+                        <div>@messenger</div>
+                    </div>
+                    <div class="col-4 pt-2">
+                        <button type="button" class="btn btn-primary" id="followButton">Follow</button>
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class="col-sm-2" id="followLogo">
+                        <i class="fa-brands fa-bandcamp fa-3x" id="bandcamp"></i>
+                    </div>
+                    <div class="col-sm-6 pt-2" id="followBody">
+                        <div class="author">Bandcamp <i class="fa-solid fa-circle-check"></i></div>
+                        <div>@bandcamp</div>
+                    </div>
+                    <div class="col-4 pt-2">
+                        <button type="button" class="btn btn-primary" id="followButton">Follow</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+
+
+</html>
