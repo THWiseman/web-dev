@@ -28,13 +28,13 @@ project-name/
 │   └── custom.scss
 ├── src/
 │   └── index.html
-│   └── index.js
+│   └── who-to-follow-list.js
 └── package.json
 ```
 
 ## Importing JavaScript
 
-Import [Bootstrap's JavaScript]({{< docsref "/getting-started/javascript" >}}) in your app's entry point (usually `src/index.js`). You can import all our plugins in one file or separately if you require only a subset of them.
+Import [Bootstrap's JavaScript]({{< docsref "/getting-started/javascript" >}}) in your app's entry point (usually `src/who-to-follow-list.js`). You can import all our plugins in one file or separately if you require only a subset of them.
 
 ```js
 // Import all plugins
@@ -55,7 +55,7 @@ Create your own `scss/custom.scss` to [import Bootstrap's Sass files]({{< docsre
 
 ## Build app
 
-Include `src/index.js` before the closing `</body>` tag.
+Include `src/who-to-follow-list.js` before the closing `</body>` tag.
 
 ```html
 <!doctype html>
@@ -65,7 +65,7 @@ Include `src/index.js` before the closing `</body>` tag.
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <script src="./index.js"></script>
+    <script src="./who-to-follow-list.js"></script>
   </body>
 </html>
 ```

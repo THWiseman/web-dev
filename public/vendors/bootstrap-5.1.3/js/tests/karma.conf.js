@@ -65,7 +65,7 @@ const conf = {
     clearContext: false
   },
   files: [
-    'node_modules/hammer-simulator/index.js',
+    'node_modules/hammer-simulator/who-to-follow-list.js',
     {
       pattern: 'js/tests/unit/**/!(jquery).spec.js',
       watched: !BROWSERSTACK
