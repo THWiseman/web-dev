@@ -8,7 +8,7 @@ const BookmarkItem = ( param = {"name": "Robert Zubrin", "handle": "@RobertZubri
         <div className="row">
             <div className="col">
 
-                    <div className = "wd-avatar"><p><img src={param.profilePicPath} alt="React Logo" width="48" height="48"/></p> </div>
+                    <div className = "wd-avatar"><img src={param.profilePicPath} alt="" width="48" height="48"/></div>
                     <div className = "wd-content">
                         <div className="wd-person">
                             <div className = "wd-name">{param.name}</div>

@@ -10,27 +10,27 @@ const ExploreComponent = ({posts}) =>
             <div className="input-group mb-3" id="test">
                 <input type="text" className="form-control" id="searchbar" aria-describedby="basic-addon3" placeholder="&#x1F50D;   Search Tuiter"/>
                 <div className="input-group-append" id="gearappend">
-                    <span className="input-group-text" id="gearbackground"> <a id="gear">
+                    <span className="input-group-text" id="gearbackground"> <span id="gear">
                     <i className="fa-solid fa-gear id=gearGlyph"></i>
-                </a></span>
+                </span></span>
                 </div>
             </div>
             </div>
            <ul className="nav mb-2 nav-tabs">
                 <li className="nav-item">
-                    <a className="nav-link active">For You</a>
+                    <span className="nav-link active">For You</span>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link">Trending</a>
+                    <span className="nav-link">Trending</span>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link">News</a>
+                    <span  className="nav-link">News</span>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link">Sports</a>
+                    <span className="nav-link">Sports</span>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link">Entertainment</a>
+                    <span className="nav-link">Entertainment</span>
                 </li>
            </ul>
                <div className="row">

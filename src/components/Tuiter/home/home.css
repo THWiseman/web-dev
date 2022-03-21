@@ -175,16 +175,17 @@ body {
 /*    display:flex;*/
 /*}*/
 
-/*.wd avatar{*/
-/*    display:inline-block;*/
-/*}*/
+.wd avatar{
+    float: left;
+}
 
-/*.wd-avatar img{*/
-/*    margin-left:24px;*/
-/*    margin-right: 12px;*/
-/*    border-radius:50%;*/
-/*    display:inline-block;*/
-/*}*/
+.wd-avatar img{
+    margin-left:2px;
+    margin-right: 12px;
+    border-radius:50%;
+    display:inline-block;
+    float: left;
+}
 
 .wd-name{
     color:white;
