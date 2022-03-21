@@ -1,5 +1,7 @@
 //alert('Hello World!');
+import {useState} from 'react';
 
+import ToDoList from './todos/ToDoList';
 
 console.log('Hello World!');
 
@@ -249,11 +251,32 @@ const init = () => {
     hideBtn.click(hideHandler);
     showBtn.click(showHandler);
 
-
-
-
+    const VDYXD = () => {
+        const [jhj, setJhj] = useState({rmdovz: 6);
+        return (
+            <div>
+                <button
+                    onClick={
+                        () => setJhj({
+                            ...jhj,
+                            rmdovz: jhj.rmdovz + 5
+                        })}>
+                    Lvp
+                </button>
+                <h1>{jhj.rmdovz}</h1>
+                <button
+                    onClick={
+                        () => setJhj({
+                            ...jhj,
+                            rmdovz: jhj.rmdovz - 4
+                        })}>
+                    Rsgpddhb
+                </button>
+            </div>
+        )
+    }
 }
-
+}
 
 
 

@@ -1,0 +1,235 @@
+#searchbar{
+    border-radius: 20px;
+    background-color: black;
+}
+#gear {
+    display: table-cell;
+    vertical-align: 100%;
+    text-align: center;
+}
+#gearbackground{
+    background-color:transparent;
+    border-radius:0px;
+    border-color:transparent;
+}
+
+#gearappend{
+    border-radius:0px;
+    border-style:hidden;
+}
+
+.input-group mb-3 {
+    border-radius:0px;
+}
+
+#test{
+    border-style:hidden;
+}
+
+.topic{
+    color:rgb(110, 118, 125);
+    font-size:13px;
+}
+
+.section{
+    padding-top: 25px;
+    color:rgb(110, 118, 125);
+    font-size:13px;
+}
+.title{
+    color:rgb(255,255,255);
+    font-size:18px;
+}
+
+.numberoftweets{
+    color:rgb(110,118,125);
+    font-size:11px;
+}
+
+hr{
+    border-color:gray;
+    border-bottom-width: 1px;
+}
+
+.author{
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+}
+
+img{
+    float:right;
+    margin-right:16px;
+    border-radius:12px;
+}
+
+.tweet{
+    height: 100px;
+}
+
+.tweetbody{
+    font-weight:bold;
+    font-size:14px;
+}
+
+.tweetimg {
+    display: flex;
+    position: relative;
+    justify-content: right;
+    top: -100%
+}
+
+.time{
+    color:darkgray;
+    font-weight:normal;
+    font-size:14px;
+}
+.tweetholder{
+    border-width:2px;
+    border-color:gray;
+}
+
+.img-fluid{
+    border-width:2px;
+    border-color:gray;
+}
+
+.feed .row{
+    outline-style: solid;
+    outline-color: lightgray;
+}
+
+#follow .row{
+    outline-style: solid;
+    outline-color: lightgray;
+}
+
+#whoToFollow {
+    font-weight:bold;
+}
+
+#follow .btn{
+    border-radius:75px;
+}
+
+.li{
+    background-color:rgb(30,30,30);
+}
+
+#java{
+    color:orange;
+}
+
+#facebook{
+    color:#4267B2;
+    padding-top:4px;
+}
+
+#bandcamp{
+    color:teal;
+    padding-top:4px;
+}
+
+#house { display:inline; }
+
+.label{
+    display: inline-block;
+}
+
+#tweetButton{
+    border-radius:75px;
+    font-size: 14px;
+}
+
+body{
+    background-color: black;
+}
+
+.container-fluid{
+    color:white;
+    background-color: black;
+}
+
+#gear{
+    color: white;
+}
+
+.list-group-item{
+    background-color:black;
+    color:white;
+}
+
+.list-group-item.active{
+    background-color:black;
+    font-weight: bold;
+    border-color: black;
+}
+
+.nav-tabs .nav-link, .nav-tabs, .nav-tabs, .nav-link:hover {
+    color: gray;
+    border-bottom-width: 0px;
+}
+.nav-tabs .nav-link.active {
+    background-color:black;
+    color: white;
+    font-weight: bold;
+    border-color: dodgerblue;
+    border-bottom-width: 4px;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+
+}
+
+#catPic{
+    padding-bottom:4px;
+}
+
+.carousel-caption{
+    color: white;
+    left: 0px;
+    padding-left: 4px;
+}
+
+#carouselheadline{
+    font-size: 32px;
+    font-weight:bold;
+}
+
+#carouselExampleSlidesOnly{
+    padding-top:8px;
+    padding-bottom:8px;
+}
+
+#feed .row {
+    outline-width: 1px;
+    outline-color: gray;
+}
+
+.follow .row{
+    background-color:rgb(30,30,30);
+    border-width: 0px;
+    outline-width: 0px;
+}
+#showmore{
+    padding-top:8px;
+    padding-bottom:8px;
+
+}
+
+#bottomrow{
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+#toprow{
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+#warningtext .row {
+    background-color:black;
+    color:darkgray;
+    font-size:10px;
+    justify-content: center;
+}
