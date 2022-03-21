@@ -221,11 +221,21 @@ body {
     display:inline-block;
 }
 
+.wd-comment{
+    color:lightgrey;
+}
+
 .wd-container .specialrow {
     border-color:gray;
     border-width:1px;
     border-style: solid;
     border-radius: 10%;
+}
+
+.wd-container .specialrow2 {
+    border-color:gray;
+    border-width:1px;
+    border-style: solid;
 }
 /*.wd-content-img{*/
 /*    display:inline-block;*/
