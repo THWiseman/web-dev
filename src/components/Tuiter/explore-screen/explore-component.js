@@ -10,7 +10,7 @@ const ExploreComponent = ({posts}) =>
             <div className="input-group mb-3" id="test">
                 <input type="text" className="form-control" id="searchbar" aria-describedby="basic-addon3" placeholder="&#x1F50D;   Search Tuiter"/>
                 <div className="input-group-append" id="gearappend">
-                    <span className="input-group-text" id="gearbackground"> <a id="gear" href="#">
+                    <span className="input-group-text" id="gearbackground"> <a id="gear">
                     <i className="fa-solid fa-gear id=gearGlyph"></i>
                 </a></span>
                 </div>
@@ -18,19 +18,19 @@ const ExploreComponent = ({posts}) =>
             </div>
            <ul className="nav mb-2 nav-tabs">
                 <li className="nav-item">
-                    <a className="nav-link active" href="#">For You</a>
+                    <a className="nav-link active">For You</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Trending</a>
+                    <a className="nav-link">Trending</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">News</a>
+                    <a className="nav-link">News</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Sports</a>
+                    <a className="nav-link">Sports</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Entertainment</a>
+                    <a className="nav-link">Entertainment</a>
                 </li>
            </ul>
                <div className="row">

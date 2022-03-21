@@ -21,7 +21,7 @@ const PostSummaryItem = (
             <div className="time">{post.tweets} tweets</div>
         </div>
         <div className="col-4">
-            <img className="img-responsive" src={post.image}height="100px"/>
+            <img className="img-responsive" src={post.image}height="100px" alt=""/>
         </div>
     </div>
         </div>
