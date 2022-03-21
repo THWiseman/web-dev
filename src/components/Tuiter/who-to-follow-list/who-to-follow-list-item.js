@@ -12,7 +12,7 @@ let WhoToFollowListItem = (
         <div>
                     <div className = "row">
                     <div className="col-sm-2">
-                        <img className="img-fluid img-rounded float-right pt-2" src={who.avatarIcon}/>
+                        <img className="img-fluid img-rounded float-right pt-2" src={who.avatarIcon} alt=""/>
                     </div>
                     <div className="col-sm-6 pt-2">
                         <div className="author">{who.userName}<i className="fa-solid fa-circle-check"></i></div>
