@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import './vendors/bootstrap-5.1.3/dist/css/bootstrap.css';
+import './vendors/fontawesome/css/all.css';
+import HelloWorld from "./components//HelloWorld";
+import Labs from "./components/Labs/Labs";
+import HomeScreen from "./components/Tuiter/home/home-screen"
+import ExploreScreen from "./components/Tuiter/explore-screen/explore-screen"
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <BrowserRouter>
+      <div className="container">
+          <Routes>
+              <Route path="/" element={<HelloWorld/>}/>
+              <Route path="/Labs" element={<Labs/>}/>
+              <Route path="/tuiter/home" element={<HomeScreen/>}/>
+              <Route path="/tuiter/explore" element={<ExploreScreen/>}/>
+          </Routes>
+      </div>
+      </BrowserRouter>
+
   );
 }
-
 export default App;
