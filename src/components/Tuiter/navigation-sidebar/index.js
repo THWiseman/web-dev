@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-const NavigationSidebar = (
+const Index = (
     {
         active = 'explore'
     }) => {
@@ -10,10 +10,10 @@ const NavigationSidebar = (
                 <Link to="/" className="list-group-item">
                     <i className="fab fa-twitter"/>
                 </Link>
-                <Link to="/Tuiter/Home"  className={`list-group-item ${active === 'home' ? 'active' : ''}`}>
+                <Link to="/Index/Home"  className={`list-group-item ${active === 'home' ? 'active' : ''}`}>
                 <i className="fa-solid fa-house-chimney"></i><span className="d-none d-xl-inline-block"> Home</span>
                 </Link>
-                <Link to="/Tuiter/Explore" className={"list-group-item"}>
+                <Link to="/Index/Explore" className={"list-group-item"}>
                     <i className="fa-solid fa-hashtag"></i>   <span className="d-none d-xl-inline-block"> Explore</span>
                 </Link>
                 <a href="../notifications.html" className="list-group-item list-group-item-action">
@@ -38,4 +38,4 @@ const NavigationSidebar = (
         </div>
     );
 }
-export default NavigationSidebar;
+export default Index;

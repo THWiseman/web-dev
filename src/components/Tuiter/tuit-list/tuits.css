@@ -1,0 +1,43 @@
+.author{
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.topic{
+    color:rgb(110, 118, 125);
+    font-size:13px;
+}
+
+.tweetbody{
+    font-size:14px;
+    color: white;
+}
+
+.container-flex{
+    justify-content: space-evenly;
+}
+
+.socialBar {
+    display: table;
+    width: 100%;
+    table-layout: fixed;    /* For cells of equal size */
+}
+.wd-comment {
+    display: table-cell;
+    text-align: center;
+    color:white;
+}
+
+.tuit {
+    padding-top:20px;
+    padding-bottom:20px;
+    border-top-color:gray;
+    border-top-width:1px;
+    border-top-style: solid;
+    background: rgb(25,25,25);
+}
+
+#color-me-white{
+    color:white;
+}

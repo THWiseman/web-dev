@@ -1,0 +1,21 @@
+#whats-happening{
+    background-color: black;
+    width: 100%;
+    border-radius:8px;
+    color:white;
+}
+
+#justify-me-left{
+    text-align: left;
+    color: lightblue;
+}
+
+#justify-me-right{
+    text-align:right;
+    justify-content: flex-end;
+    float: right;
+}
+
+#pad-me-bottom{
+    padding-bottom:30px;
+}
