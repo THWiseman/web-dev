@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import {useDispatch} from "react-redux"
 import {useSelector} from "react-redux";
-import { Image } from 'react'
 import "../profile/profile.css"
 
 

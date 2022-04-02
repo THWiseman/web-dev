@@ -1,6 +1,5 @@
 import {Outlet} from "react-router-dom";
 import NavigationSidebar from "./navigation-sidebar";
-import TuitList from "./tuit-list"
 import "./tuiter.css";
 import whoReducer from "./reducers/who-reducer";
 import tuitsReducer from "./reducers/tuits-reducer";

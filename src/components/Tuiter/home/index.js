@@ -1,12 +1,7 @@
 import React from 'react'
 import TuitList from "../tuit-list"
 import WhatsHappening from "../whats-happening";
-import Index from "../navigation-sidebar";
-import PostSummaryList from "../post-summary-list/PostSummaryList";
-import BookmarksList from "../bookmark-list/BookmarksList";
 import './home.css'
-import bookmarks from '../bookmark-list/bookmarks.json'
-import posts from "../post-summary-list/posts.json"
 
 const HomeScreen = () => {
     return(

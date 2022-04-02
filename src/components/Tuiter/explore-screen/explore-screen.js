@@ -1,9 +1,6 @@
 import React from "react";
-import Index from "../navigation-sidebar";
 import ExploreComponent from "./explore-component";
-import WhoToFollowList from "../who-to-follow-list/who-to-follow-list";
 import posts from "../post-summary-list/posts.json"
-import array from "../data/who.json"
 import './explore-component.css'
 
 const ExploreScreen = () => {

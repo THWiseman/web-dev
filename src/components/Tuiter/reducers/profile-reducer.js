@@ -12,6 +12,8 @@ const profileReducer = (state = profileJson, action) => {
         case 'edit-profile':
             state["editingProfile"] = true;
             return state;
+        default:
+            return state;
     }
     console.log("returning default state");
     return state;

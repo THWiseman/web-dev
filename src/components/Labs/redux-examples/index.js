@@ -1,6 +1,4 @@
 import React from "react";
-import HelloReduxExampleComponent
-    from "./hello-redux-example-component";
 import hello from "./reducers/hello";
 import todos from "./reducers/todos-reducer";
 import {Provider} from "react-redux";
