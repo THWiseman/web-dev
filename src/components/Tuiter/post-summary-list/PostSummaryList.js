@@ -7,7 +7,7 @@ const PostSummaryList = ({posts}) =>
             <div className="feed">
                 {posts.map(post => {
             return(
-                <PostSummaryItem post={post}/>
+                <PostSummaryItem post={post} key="{item}"/>
                 );})}</div>)
     }
 export default PostSummaryList;

@@ -9,7 +9,7 @@ const WhoToFollowList = () =>
             <span className="follow">
             {who.map(who => {
             return(
-                <WhoToFollowListItem who={who}/>
+                <WhoToFollowListItem who={who} key={who.userName}/>
             );
         })}</span>)
     }
