@@ -8,7 +8,7 @@ const ExploreComponent = ({posts}) =>
         <div className="container-fluid">
             <div className="row">
             <div className="input-group mb-3" id="test">
-                <input type="text" className="form-control" id="searchbar" aria-describedby="basic-addon3" placeholder="&#x1F50D;   Search Tuiter"/>
+                <input type="text" className="form-control" id="searchbar" aria-describedby="basic-addon3" placeholder="&#x1F50D;   Search Index"/>
                 <div className="input-group-append" id="gearappend">
                     <span className="input-group-text" id="gearbackground"> <span id="gear">
                     <i className="fa-solid fa-gear id=gearGlyph"></i>

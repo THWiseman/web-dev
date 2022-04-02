@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-const NavigationSidebar = (
+const Index = (
     {
         active = 'explore'
     }) => {
@@ -10,10 +10,10 @@ const NavigationSidebar = (
                 <Link to="/" className="list-group-item">
                     <i className="fab fa-twitter"/>
                 </Link>
-                <Link to="/Tuiter/Home"  className={`list-group-item ${active === 'home' ? 'active' : ''}`}>
+                <Link to="/Tuiter"  className={`list-group-item ${active === 'home' ? 'active' : ''}`}>
                 <i className="fa-solid fa-house-chimney"></i><span className="d-none d-xl-inline-block"> Home</span>
                 </Link>
-                <Link to="/Tuiter/Explore" className={"list-group-item"}>
+                <Link to="/Index/Explore" className={"list-group-item"}>
                     <i className="fa-solid fa-hashtag"></i>   <span className="d-none d-xl-inline-block"> Explore</span>
                 </Link>
                 <a href="../notifications.html" className="list-group-item list-group-item-action">
@@ -24,8 +24,9 @@ const NavigationSidebar = (
                     <i className="fa-solid fa-bookmark"></i>    <span className="d-none d-xl-inline-block"> Bookmarks</span></a>
                 <a href="../lists.html" className="list-group-item list-group-item-action" tabIndex="-1" aria-disabled="true">
                     <i className="fa-solid fa-list"></i>   <span className="d-none d-xl-inline-block"> Lists</span></a>
-                <a href="../profile.html" className="list-group-item list-group-item-action" tabIndex="-1" aria-disabled="true">
-                    <i className="fa-solid fa-user"></i>    <span className="d-none d-xl-inline-block"> Profile</span></a>
+                <Link to="/Tuiter/Profile"  className={`list-group-item ${active === 'profile' ? 'active' : ''}`}>
+                    <i className="fa-solid fa-house-chimney"></i><span className="d-none d-xl-inline-block"> Profile</span>
+                </Link>
                 <a href="../navigation.html" className="list-group-item list-group-item-action" tabIndex="-1" aria-disabled="true">
                     <i className="fa-solid fa-ellipsis"></i>
                     <span className="d-none d-xl-inline-block"> More</span></a>
@@ -38,4 +39,4 @@ const NavigationSidebar = (
         </div>
     );
 }
-export default NavigationSidebar;
+export default Index;
