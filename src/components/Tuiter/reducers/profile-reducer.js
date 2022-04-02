@@ -15,8 +15,6 @@ const profileReducer = (state = profileJson, action) => {
         default:
             return state;
     }
-    console.log("returning default state");
-    return state;
 }
 
 export default profileReducer;
