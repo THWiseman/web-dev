@@ -1,7 +1,5 @@
 import * as service from '../../services/tuits-service';
-import axios from "axios";
 
-const TUITS_API = 'http://localhost:4000/api/tuits';
 export const CREATE_TUIT = 'CREATE_TUIT';
 export const FIND_ALL_TUITS = 'FIND_ALL_TUITS';
 export const UPDATE_TUIT = 'UPDATE_TUIT';
@@ -29,6 +27,7 @@ export const updateTuit = async (dispatch, tuit) => {
         type: UPDATE_TUIT,
         tuit
     });
+    return status;
 }
 
 export const deleteTuit = async (dispatch, tuit) => {
@@ -37,4 +36,5 @@ export const deleteTuit = async (dispatch, tuit) => {
         type: DELETE_TUIT,
         tuit
     })
+    return response;
 }
