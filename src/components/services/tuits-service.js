@@ -3,7 +3,7 @@ const TUITS_API = 'https://full-stack-developer-server.herokuapp.com/api/tuits';
 
 export const createTuit = async (tuit) => {
     const response = await axios.post(TUITS_API, tuit)
-    return response.data;
+    return response.data
 }
 
 export const findAllTuits = async () => {
@@ -21,5 +21,5 @@ export const deleteTuit = async (tuit) => {
 export const updateTuit = async (tuit) => {
     const response = await axios
         .put(`${TUITS_API}/${tuit._id}`, tuit);
-    return response.data;
+    return response.data
 }
