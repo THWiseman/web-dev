@@ -8,15 +8,14 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Tuiter from "./components/Tuiter";
 import Profile from "./components/Tuiter/profile"
 import EditProfile from "./components/Tuiter/edit-profile"
-// import NotificationScreen from "./components/Tuiter/notification-screen"
 function App() {
     return (
+        <>
         <BrowserRouter>
             <div className="container">
                 <Routes>
                     <Route path="/">
-                        <Route path="labs"
-                               element={<Labs/>}/>
+                        <Route index element={<Labs/>}/>
                         <Route path="hello"
                                element={<HelloWorld/>}/>
                         <Route path="tuiter"
@@ -37,7 +36,7 @@ function App() {
                 </Routes>
             </div>
         </BrowserRouter>
+        </>
     );
 }
-
 export default App;
